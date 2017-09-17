@@ -1,3 +1,4 @@
 # Import system modules
 import sys, os
-os.system("server.sh")
+os.system("chmod +x server.sh")
+os.system("python2 server.py")
