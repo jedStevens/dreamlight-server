@@ -1,0 +1,27 @@
+body{
+  background-color: #202020;
+}
+
+.title-logo {
+  font-family: 'IM Fell English', sans-serif;
+  font-size: 4em;
+  text-align: center;
+
+  color: #fff;
+
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+
+}
+
+.port-hint {
+  font-family: 'IM Fell English', sans-serif;
+  font-size: 2em;
+  text-align: center;
+
+  color: #fff;
+
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+
+}
