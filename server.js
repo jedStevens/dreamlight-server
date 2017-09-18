@@ -19,7 +19,8 @@ app.get("/", function(req, res) {
 });
 
 app.get("/port-hint", function(req, res) {
-  res.send(process.env.PORT || 5000)
+  console.log("served port hint");
+  res.sendFile(__dirname + "/public/game.port");
 })
 
  app.post("/user/add", function(req, res) {

@@ -1,5 +1,9 @@
 # Import system modules
 import sys, os
+import gdheroku
+
+# default port: 4202
+gdheroku.create_port_file()
 
 # Boot Web Server
 # ============================
