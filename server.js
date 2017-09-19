@@ -1,6 +1,18 @@
 var express = require("express");
 var app = express();
 
+var server_path =__dirname+"/heroku_server.sh &"
+console.log("trying to launch server with: ", server_path);
+
+var exec  = require('child_process').exec,
+    child;
+
+child = exec(server_path,
+  function (error, stdout, stderr) {
+    console.log('~:', stdout);
+});
+
+
 var favicon = require('serve-favicon');
 var path = require('path');
 fs = require('fs')

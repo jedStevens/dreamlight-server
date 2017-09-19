@@ -1,7 +1,7 @@
 {
   "name": "dreamlight-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server for dreamlight",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jedStevens/dreamlight-server#readme",
   "dependencies": {
     "express": "^4.15.4",
+    "node-cmd": "^3.0.0",
     "serve-favicon": "^2.4.4"
   }
 }
