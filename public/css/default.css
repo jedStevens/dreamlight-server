@@ -1,5 +1,5 @@
 body{
-  background-color: #202020;
+  background-color: #222;
 }
 
 .title-logo {
@@ -24,4 +24,19 @@ body{
   padding-top: 0.5em;
   padding-bottom: 0.25em;
 
+}
+
+.menu {
+  background-color: #444;
+  color: #fff;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #222;
+}
+
+.bottom-bar {
+  background-color: #222;
+  color: #fff;
 }

@@ -8,7 +8,7 @@ gdheroku.create_port_file()
 # Boot Web Server
 # ============================
 
-os.system("node server.js &")
+os.system("nodejs server.js &")
 
 # Boot Game Server
 # ================
@@ -25,4 +25,3 @@ server = os.path.join(os.path.dirname(os.path.realpath(__file__)), "heroku_serve
 
 os.system("chmod +x "+server)
 os.system(server)
-
