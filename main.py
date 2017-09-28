@@ -8,7 +8,16 @@ gdheroku.create_port_file()
 # Boot Web Server
 # ============================
 
-os.system("nodejs server.js &")
+port = 3000
+try:
+   port = int(os.environ["PORT"])
+except KeyError:
+   print "Please set the environment variable PORT"
+   sys.exit(1)
+
+os.system("python2 -m  SimpleHTTPServer "+str(port)+ " &")
+
+os.system("export DREAMLIGHTSERVER=666")
 
 # Boot Game Server
 # ================

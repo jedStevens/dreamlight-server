@@ -7,4 +7,3 @@ def create_port_file(path="game.port"):
 	file = open(path,"w")
 	file.write(str(get_valid_port()))
 	file.close()
-
